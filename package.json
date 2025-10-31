@@ -1,0 +1,40 @@
+{
+  "name": "cf_ai_resnik_voice_assistant",
+  "version": "1.0.0",
+  "description": "Resnik Voice Assistant - AI-powered space mission support system for NASA SUITS Challenge",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest",
+    "lint": "eslint src/",
+    "format": "prettier --write src/"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers-ai",
+    "llama-3.3",
+    "voice-assistant",
+    "nasa-suits",
+    "space-mission",
+    "astronaut-support"
+  ],
+  "author": "CMU Resnik Team",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.95.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cf_ai_resnik_voice_assistant"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
